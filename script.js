@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             newButton.textContent = "Remove";
 
-            newButton.className = "remove-btn";
+            newButton.classList.add("remove-btn");
 
             newButton.addEventListener("click", ()=> {
                 
